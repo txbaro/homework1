@@ -16,13 +16,6 @@ export default function HomeScreen({ navigation }) {
       >
         <Text style={styles.text}>Register</Text>
       </TouchableOpacity>
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate("Task2")}
-      >
-        <Text style={styles.text}>Task 2</Text>
-      </TouchableOpacity>
     </View>
   );
 }
